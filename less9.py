@@ -1,22 +1,22 @@
 # # 1
-# names = ["Шахзодбе", "Мохирбек", "Абумалик", "Отабек", "Ёлкин"]
-# for name in names:
-#     print(f"Привет, {name}! Добро пожаловать в программу.")
+names = ["Шахзодбе", "Мохирбек", "Абдумалик", "Отабек", "Ёлкин"]
+for name in names:
+    print(f"Привет, {name}! Добро пожаловать в программу.")
 
 # # 2
-# names = ["Анна", "Борис", "Виктор", "Галина", "Денис"]
-# count = 0
-# for name in names:
-#     print(f"Привет, {name}! Добро пожаловать в программу.")
-#     count += 1
-# print(f"Код повторился {count} раз.")
+names = ["Анна", "Борис", "Виктор", "Галина", "Денис"]
+count = 0
+for name in names:
+    print(f"Привет, {name}! Добро пожаловать в программу.")
+    count += 1
+print(f"Код повторился {count} раз.")
 
 
 # # 3
-# numbers = list(range(11, 100, 2))
+numbers = list(range(11, 100, 2))
 
-# for number in numbers:
-#     print(number ** 3)
+for number in numbers:
+    print(number ** 3)
 
 # 4
 
