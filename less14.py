@@ -12,7 +12,7 @@ print(f"Otamning ismi {otam['ismi']}, {otam['tugilgan_yili']}-yilda, {otam['shah
 
 favorite_foods = {
     "Ali": "Osh",
-    "Samar": "Manti",
+    "Shahzod": "Manti",
     "Bekzod": "Shashlik",
     "Lola": "Palov",
     "Diana": "Lag'mon"
@@ -20,5 +20,5 @@ favorite_foods = {
 
 
 print("Alining sevimli taomi:", favorite_foods["Ali"])
-print("Samarning sevimli taomi:", favorite_foods["Samar"])
+print("Shahzodning sevimli taomi:", favorite_foods["Shahzod"])
 print("Bekzodning sevimli taomi:", favorite_foods["Bekzod"])
