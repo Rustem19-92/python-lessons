@@ -11,11 +11,8 @@
 #     "гора": "естественное возвышение земной поверхности, значительно превышающее окрестную территорию"
 # }
 
-# # Сортируем словарь по ключам и выводим каждый ключ и его значение
 # for key in sorted(dictionary):
 #     print(f"{key}: {dictionary[key]}")
-
-# Словарь с государствами и столицами
 
 countries_and_capitals = {
     "Россия": "Москва",
@@ -30,12 +27,12 @@ countries_and_capitals = {
     "Австралия": "Канберра"
 }
 
-# Выводим все государства
+
 print("Государства:")
 for country in countries_and_capitals:
     print(country)
 
-# Выводим столицы в алфавитном порядке
+
 print("\nСтолицы в алфавитном порядке:")
 for capital in sorted(countries_and_capitals.values()):
     print(capital)
